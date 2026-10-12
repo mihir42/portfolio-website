@@ -4,27 +4,31 @@
     box-sizing: border-box;
 }
 
-
 body {
+    background-color: whitesmoke;
     font-family: sans-serif;
 }
 
 header {
+    background-color: rgba(127, 127, 127, 0.90);
     width: 100vw;
+    height: 60px;
     position: fixed;
     padding-right: 10px;
 }
 
 header nav {
-    padding: 5px;
+    height: 60px;
+    padding-right: 20px;
     display: flex;
     justify-content: flex-end;
-    gap: 10px;
+    align-items: center;
+    gap: 20px;
 }
 
 nav a {
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 
 nav a:hover {
@@ -42,13 +46,30 @@ nav a:hover {
 
 h1 {
     font-size: 3rem;
+    color: rgb(64, 64, 64);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p { 
     font-size: 1.5rem;
+    color: gray;
+    font-family: monospace;
 }
 
-#projects {
-    height: 100vh;
+#contact{
+    height: 50vh;
     width: 100vw;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(84, 84, 84)
+}
+
+a:hover {
+    color: rgb(50, 50, 50)
+}
+
