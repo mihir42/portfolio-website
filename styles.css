@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 body {
     background-color: whitesmoke;
-    font-family: sans-serif;
 }
 
 header {
@@ -19,15 +21,14 @@ header {
 
 header nav {
     height: 60px;
-    padding-right: 20px;
+    padding-right: 15px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 nav a {
-    text-decoration: none;
     color: white;
 }
 
@@ -48,6 +49,7 @@ h1 {
     font-size: 3rem;
     color: rgb(64, 64, 64);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 p { 
@@ -65,11 +67,10 @@ p {
 }
 
 a {
-    text-decoration: none;
-    color: rgb(84, 84, 84)
+    color: gray;
 }
 
 a:hover {
-    color: rgb(50, 50, 50)
+    color: rgb(64, 64, 64)
 }
 
