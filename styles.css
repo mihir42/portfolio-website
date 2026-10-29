@@ -7,13 +7,13 @@
     text-decoration: none;
 }
 
-body {
+html {
     background-color: whitesmoke;
 }
 
 header {
     height: 4rem;
-    background-color: rgba(127, 127, 127, 0.9);
+    background-color: rgba(128, 128, 128, 0.736);
     backdrop-filter: blur(5px);
     border-radius: 3rem;
     position: fixed;
@@ -24,6 +24,7 @@ header {
     align-items : center;
     justify-content: space-between;
     transition: 0.3s ease-in-out;
+    z-index: 999;
 }
 
 header:hover {
@@ -88,6 +89,62 @@ h1:hover {
     letter-spacing: 1rem;
 }
 
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgrey;
+    height: 100vh;
+    width: 100vw;
+}
+
+#projects h2 {
+    padding: 2%;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(64, 64, 64);
+}
+
+.project-tile {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50%;
+    width: 95%;
+    background-color: grey;
+    border-radius: 3rem;
+}
+
+.project-tile img {
+    padding: 1.5%;
+    border-radius: 3rem;
+    width:50%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.description {
+    padding: 1.5% 1.5% 1.5% 0;
+    width: 100%;
+}
+
+.project-tile h3 {
+    color: rgb(64, 64, 64);
+    text-align: center;
+    padding: 2%;
+}
+
+.project-tile p {
+    color: lightgrey;
+    text-align: justify;
+}
+
+.project-tile img:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
 #contact{
     height: 50vh;
     width: 100vw;
@@ -120,3 +177,4 @@ footer p{
     color: gray;
     transition: 0.3s ease-in-out;
 }
+
